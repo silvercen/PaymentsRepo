@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class Paymentdto {
 
     @Min(value = 1, message = "Amount should be greater than 0")
-    private double amount;
+    private Double amount;
     @NotBlank(message = "Currency is required")
     private String currency;
     @NotBlank(message = "Username is required")

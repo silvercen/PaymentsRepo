@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Payment {
     @Id
     private String id;
-    private double amount;
+    private Double amount;
     private String currency;
     private String username;
     private String ponumber;
